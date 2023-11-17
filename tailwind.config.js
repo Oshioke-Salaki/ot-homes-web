@@ -17,6 +17,7 @@ export default {
         city2: "url('/src/assets/city2.png')",
         city3: "url('/src/assets/city3.png')",
         city4: "url('/src/assets/city4.png')",
+        special: "url('/src/assets/specialBanner.png')",
       },
       boxShadow: {
         shadow1: "0px 15px 30px 0px rgba(221, 221, 221, 0.15)",
