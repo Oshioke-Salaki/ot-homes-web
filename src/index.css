@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* .cityCard {
+  transition: all 0.3s;
+  height: 300px;
+}
+.cityCard > button {
+  display: none;
+  margin-bottom: -200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cityCard:hover .cityCard > button {
+  margin-bottom: 0;
+  display: block;
+
+} */
