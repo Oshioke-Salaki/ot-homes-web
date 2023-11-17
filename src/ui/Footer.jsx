@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import NavLink from "./NavLink";
 
 function Footer() {
   return (
@@ -13,7 +14,20 @@ function Footer() {
         </p>
       </div>
       <div>
-        <h1 className="font-semibold text-[#000018]">Platform</h1>
+        <div className="p-[10px]">
+          <h1 className="font-semibold text-[#000018]">Platform</h1>
+          <NavLink name="Analytics" />
+          <NavLink name="Planning" />
+          <NavLink name="Data managment" />
+          <NavLink name="Security" />
+        </div>
+        <div className="p-[10px]">
+          <h1 className="font-semibold text-[#000018]">Connect With Us</h1>
+          <NavLink name="Instagram" />
+          <NavLink name="Twitter" />
+          <NavLink name="Facebook" />
+          <NavLink name="LinkedIn" />
+        </div>
       </div>
     </div>
   );
