@@ -13,7 +13,7 @@ function SpecialSection() {
           placeholder="Enter your email"
           className="w-[292px] rounded-[10px] bg-white px-[15px] py-[17px] text-base font-normal leading-[22px] text-[#000018]"
         />
-        <button className="text- w-[211px] rounded-[10px] bg-[#98FB98] py-[15px] text-center text-base font-semibold leading-[22px]">
+        <button className="text- w-[211px] rounded-[10px] bg-[#98FB98] py-[15px] text-center text-base font-semibold leading-[22px] text-[#312E2E]">
           Request a demo
         </button>
       </div>
