@@ -3,7 +3,7 @@
 function ChooseCard({ img, title, description }) {
   return (
     <div className="flex items-center gap-x-2 bg-white px-2 py-4">
-      <div className="h-11 w-11 rounded-full bg-[#E8F2FF] p-[10]">
+      <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#E8F2FF] p-[10]">
         <img src={img} alt="" />
       </div>
       <div className="flex flex-col gap-y-2">
