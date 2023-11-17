@@ -6,7 +6,7 @@ import deal from "../../assets/like-shapes.png";
 
 function WhyChooseSection() {
   return (
-    <div className="text-textPrimary">
+    <div className="text-textPrimary pb-[124px]">
       <div className="mb-[49px] text-center capitalize">
         <h1 className="text-[32px] font-semibold">Why choose us</h1>
         <h2 className="text-lightBorder text-sm font-normal">
