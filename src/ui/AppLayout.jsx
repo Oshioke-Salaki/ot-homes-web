@@ -3,8 +3,10 @@ import Navbar from "./Navbar";
 
 function AppLayout() {
   return (
-    <div className="bg-white px-[100px]">
-      <Navbar />
+    <div className="bg-white">
+      <div className=" px-[100px]">
+        <Navbar />
+      </div>
       <Outlet />
     </div>
   );

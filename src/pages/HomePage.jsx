@@ -8,15 +8,17 @@ import WhyChooseSection from "../features/home/WhyChooseSection";
 function HomePage() {
   return (
     <div className="w-full pt-[53px]">
-      <HomeHeroSection />
-      <div className="mt-[-47px] flex w-full justify-center ">
-        <HomeSearch />
+      <div className="px-[100px]">
+        <HomeHeroSection />
+        <div className="mt-[-47px] flex w-full justify-center ">
+          <HomeSearch />
+        </div>
+        <div className="mb-[60px] mt-[78px] flex flex-col gap-y-[57px]">
+          <PopularCitiesSection />
+          <PopularHotelsSection />
+        </div>
+        <WhyChooseSection />
       </div>
-      <div className="mb-[60px] mt-[78px] flex flex-col gap-y-[57px]">
-        <PopularCitiesSection />
-        <PopularHotelsSection />
-      </div>
-      <WhyChooseSection />
       <SpecialSection />
     </div>
   );
