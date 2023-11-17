@@ -10,9 +10,12 @@ function SpecialSection() {
       <div className="flex w-full items-center justify-center gap-x-[15px]">
         <input
           type="text"
+          placeholder="Enter your email"
           className="w-[292px] rounded-[10px] bg-white px-[15px] py-[17px] text-base font-normal leading-[22px] text-[#000018]"
         />
-        <button>Request a demo</button>
+        <button className="text-textPrimary w-[211px] py-[15px] text-center text-base font-semibold leading-[22px]">
+          Request a demo
+        </button>
       </div>
     </div>
   );
