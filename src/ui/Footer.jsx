@@ -13,7 +13,7 @@ function Footer() {
         </p>
       </div>
       <div>
-        <h1 className="text-[#000018]">Platform</h1>
+        <h1 className="font-semibold text-[#000018]">Platform</h1>
       </div>
     </div>
   );
