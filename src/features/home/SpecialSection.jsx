@@ -1,6 +1,6 @@
 function SpecialSection() {
   return (
-    <div className="bg-special bg-primaryColor mx-[-100px] bg-cover bg-[0%_50%] bg-no-repeat py-[80px] text-center text-white">
+    <div className="bg-special bg-primaryColor mx-[-100px] bg-cover bg-[0%_center] bg-no-repeat py-[80px] text-center text-white">
       <h1 className="mb-3 text-5xl font-bold capitalize leading-[66px]">
         Special hotel deals and offers
       </h1>
