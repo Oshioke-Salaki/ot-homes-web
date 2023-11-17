@@ -7,7 +7,7 @@ import WhyChooseSection from "../features/home/WhyChooseSection";
 
 function HomePage() {
   return (
-    <div className="w-full pt-[53px]">
+    <div className="w-full overflow-x-hidden pt-[53px]">
       <div className="px-[100px]">
         <HomeHeroSection />
         <div className="mt-[-47px] flex w-full justify-center ">
