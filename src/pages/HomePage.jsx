@@ -2,6 +2,7 @@ import HomeHeroSection from "../features/home/HomeHeroSection";
 import HomeSearch from "../features/home/HomeSearch";
 import PopularCitiesSection from "../features/home/PopularCitiesSection";
 import PopularHotelsSection from "../features/home/PopularHotelsSection";
+import WhyChooseSection from "../features/home/WhyChooseSection";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
         <PopularCitiesSection />
         <PopularHotelsSection />
       </div>
+      <WhyChooseSection />
     </div>
   );
 }
