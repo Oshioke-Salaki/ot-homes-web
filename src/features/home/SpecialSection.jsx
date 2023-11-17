@@ -7,7 +7,13 @@ function SpecialSection() {
       <h2 className="mb-[46px] text-base font-normal leading-[22px]">
         Enter your email address to receive secret hotel deals
       </h2>
-      <div className="flex items-center gap-x-[10px]"></div>
+      <div className="flex items-center gap-x-[15px]">
+        <input
+          type="text"
+          className="rounded-[10px] bg-white px-[15px] py-[17px] text-base font-normal leading-[22px] text-[#000018]"
+        />
+        <button>Request a demo</button>
+      </div>
     </div>
   );
 }
