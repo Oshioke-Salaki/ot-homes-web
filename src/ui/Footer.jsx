@@ -28,6 +28,20 @@ function Footer() {
           <NavLink name="Facebook" />
           <NavLink name="LinkedIn" />
         </div>
+        <div className="p-[10px]">
+          <h1 className="font-semibold text-[#000018]">Reasources</h1>
+          <NavLink name="Customers" />
+          <NavLink name="Ebooks & Guides" />
+          <NavLink name="Podacast & video" />
+          <NavLink name="Finance" />
+        </div>
+        <div className="p-[10px]">
+          <h1 className="font-semibold text-[#000018]">Our Services</h1>
+          <NavLink name="About Us" />
+          <NavLink name="Our Plans" />
+          <NavLink name="Contact Us" />
+          <NavLink name="Careers" />
+        </div>
       </div>
     </div>
   );
